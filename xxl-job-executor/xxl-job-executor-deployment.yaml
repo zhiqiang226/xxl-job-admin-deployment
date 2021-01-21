@@ -29,7 +29,7 @@ spec:
         - name: harborsecret
       containers:
         - name: xxl-job-executor
-          image: harbor.huaweicloud.com/test-env/xxl-job-executor:v31
+          image: harbor.huaweicloud.com/test-env/xxl-job-executor:v58
           volumeMounts:
           - mountPath: /home/application.properties
             name: executor-config
